@@ -1,0 +1,391 @@
+
+
+
+
+	3D Coat
+
+		Introducción a 3d Coat - Parte1
+			https://www.youtube.com/watch?v=OIriVkYK59c
+
+
+		3d Coat:Reviews Español
+			https://www.youtube.com/watch?v=OmSgFQwAY60
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Voxel Model Brushes:
+____________________
+
+
+
+	Voxels:
+	_______
+
+
+		_Grow:
+
+			_Creación de geometría extra en el proceso de escultura a través, de "Splines", y otros
+		
+			métodos de pinceles especiales
+
+
+		_Smooth:
+
+			_suavizar geometría creada en el proceso de esculpido
+
+
+				_Shoftcut: "Shift"
+
+
+		_Fill:
+
+			_
+
+
+		_Clay:
+
+			_ésta opción nos permitirá agregar volúmen de geometría en el proceso de escultura
+
+
+		_Carve:
+
+			_crear volúmen sobre la geometría con una altísima acutancia en relación a la geometría
+
+			contígua, no deformando así, la geometría circundante
+
+
+		_Blob:
+
+			_ésta opción nos permitirá agregar geometría extra por medio de las opciones de spline,
+
+			shortcut, "E", en un modo de similar a la opción del brush, "Grow"
+
+
+		_AirBrush:
+
+			_
+
+
+		_Build:
+
+			_
+
+
+		_Extrude:
+
+			_ésta opcíon nos permitirá crear geometría sobre el proceso de escultura respetando ó 
+
+			transpolando los relieves a la nueva extrusión ó nuevo volúmen generado en el proceso de 
+
+			escultura
+
+
+			_especialmente útil para la creación de geometría con splines, y selecciones
+
+
+		_Sphere:
+
+			_
+
+
+		_2D-Paint:
+
+			_
+
+
+		_Plane:
+
+			_
+
+
+		_Scrape:
+
+			_
+
+
+		_Pinch:
+
+			_
+
+
+		_Smudge:
+
+			_
+
+
+
+	Adjust:
+	_______
+	
+ 
+		_Cut Off:
+
+			_ésta opción nos permitirá crear perforaciones sobre las superficies ó geometría en el 
+
+			proceso de escultura digital a través, de las herramientas y modos de selección y spline,
+			
+			shortcut, "E"
+
+
+		_Measure:
+
+			_
+
+
+		_Pick:
+
+			_
+
+
+		_Pose:
+
+			_
+
+
+		_Fit:
+
+			_
+
+
+		_Move:
+
+			_
+
+
+		_Hide:
+
+			_
+
+
+		_Cell:
+
+			_
+
+
+		_Copy:
+
+			_
+
+
+		_Transform:
+
+			_
+
+
+		_Instancer:
+	
+			_
+
+
+		_Warp:
+
+			_
+
+
+		_Axial:
+
+			_
+
+
+		_Bas-Rellef:
+
+			_
+
+
+		_Undercuts:
+
+			_
+
+
+
+	Objets:
+	_______
+
+
+		_Split:
+
+			_
+
+
+		_Clone:
+
+			_
+
+
+		_Cut & Clone:
+
+			_
+
+
+		_Vox Extrude:
+
+			_
+
+
+		_Vox Layer:
+
+			_
+
+
+		_Logo:
+
+			_
+
+
+		_Merge:
+
+			_
+
+
+		_Sketch:
+
+			_
+
+
+		_Curves:
+
+			_ésta opción nos permitirá crear nueva geometría altamente controlable a través, de nodos de 
+
+			la misma manera que en "ZBrush", en la opción "ZSpheres"
+
+
+				_Scale Nodes: 
+
+					_Mouse Right Click + Drag
+
+
+				_Move Nodes:
+
+					_Mouse Left Click + Drag
+
+
+				_Rotar Nodes:
+
+					_Shift + Mouse Left Click + Drag
+
+
+		_Snake:
+
+			_ésta opción nos pemritirá crear ó extruir geometría ha modo de "Tubes", de "ZBrush", lo 
+
+			cuál, nos permitirá extender geometrías para la creación de cabello, extremidades, otros
+
+
+		_Spikes:
+
+			_
+
+
+		_ToothPaste:
+
+			_
+
+
+		_Muscle:
+
+			_ésta opción nos permitirá crear geometría en el proceso de escultura ha modo de músculos
+
+			totalmente controlable y editable sobre la superficies
+
+
+		_Primitives:
+
+			_
+
+
+		_Text:
+
+			_
+
+
+		_Cloth:
+
+			_
+
+
+
+	Surface:
+	________
+
+
+		_Draw:
+
+			_
+
+
+		_Pinch:
+
+			_
+
+
+		_Shift:
+
+			_
+
+
+		_Flatten:
+
+			_
+
+
+		_Rapid:
+
+			_
+
+
+
+
+	Commands:
+	_________
+
+
+		_Res +:
+
+			_
+
+
+		_Resample:
+
+			_
+
+
+		_Clear:
+
+			_
+
+
+		_Smooth All:
+
+			_
+		
+	
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,241 @@
+
+
+
+
+	3D Coat
+
+		Introducción a 3d Coat - Parte1
+			https://www.youtube.com/watch?v=OIriVkYK59c
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+NAVEGACIÓN:
+___________
+	
+ 
+	Nav: (igual a Maya)
+	____
+
+
+		Orbitar: Alt + Mouse Left Click + Drag
+
+
+		Pan: Alt + Mouse Midle Click + Drag
+
+
+		Zoom: Alt + Mouse Right Click + Drag
+
+
+		Pivot Orbit: F (colocar el brush, en un lugar del canvas deseado y aplicar "F", para que así, 
+
+			orbitemos a partir de ese punto indicado)
+
+
+
+
+	Axonometric Cam: (igual que en Blender)
+	________________
+
+
+		Perspective | Axonometric: 5 path numerico
+	
+
+		left-view axinimetrica: 4 path numerico
+
+		right-view axinimetrica: 6 path numerico
+
+		from-view axinimetrica: 2 path numerico
+
+		back-view axinimetrica: 8 path numerico
+ 
+		top-view axinimetrica: 7 path numerico
+
+		button-view axinimetrica: 1 path numerico
+
+
+		Dynamic Cam: Alt + Mouse Left Click + Drag + Shift (Como en ZBrush)
+
+			(ésta opción nos permitirá orbitar normalmente y con "shift", aplicado podremos anclar la
+			cámara a la vista axonométrica más cercana)
+
+
+
+	Wareframe View: 4 | W
+
+
+
+	Centrar View: Shift + A
+
+
+
+
+
+WORKFLOW:
+_________
+
+
+	VORXEL SCULTING:
+	________________
+
+
+		VIEW:
+		_____
+
+			wareframe: W/4
+
+			brush size: scroll sobre la mesh Up/Down ó Cntrol + mouse right click + left/right arrows
+
+			brush intensity: Cntrol + mouse right click + Up/Down arrows
+
+
+
+
+		BRUSHES CONTROLS:
+		_________________
+
+
+			_Size:
+
+				_Mouse Scrool Wheel | Mouse Right Click + Left|Right Drag
+
+
+			_Depth | Stretch:
+
+
+				_Control + Mouse Scrool Wheel | Mouse Right | Mouse Right Click + Up|Down Drag | Control + Mouse Right Click + Up|Down Drag
+
+
+			Smoothing:
+
+				_Control + Mouse Scrool Wheel | Mouse Right | Shift + Mouse Right Click + Up|Down Drag
+
+			
+
+
+
+		BRUSHES:
+		______
+
+			Steady Stroke: Alt + S (Lazzy Mode ZBrush)
+
+
+			draw: 1
+		
+			move: 2
+
+			pinch: 3
+
+			flatten: 5
+
+			clay: 9
+
+
+			Grow: (para crear geometría a partir de enmarcados)
+
+				_para lo cuál, debemos de activar el brush, y a continuación seleccionar un modo
+
+				de seección shortcut, "E", el cuál, puede ser una forma geométrica tipo rectángulo
+
+				ó de tipo lazo
+
+
+				_así, como también, seleccionar en panel "Tool Options", el tipo de geometría creada
+
+				así, podremos indicar si la geometría creada tendrá volúmen ó será plana, otros
+
+
+				_para salir del modo de creación de spline, "Esc"
+
+
+				_el nivel de extrusión estará superditado al radio del brush, activo 
+
+
+				_y para aplicar ó crear la extrusión ó "Relieve", sobre una geometría "Enter", 
+
+				una vez creada la spline, y "Control + Enter", para crear una "Depresión"
+
+
+			
+
+
+
+		MENÚS CONTEXTUALES:
+		___________________
+
+			simetry: S
+
+			specular: R
+
+			brush border: E
+
+			brushes panel: spacebar
+
+			brushes: T
+
+			depth: D
+
+			materials: M
+
+			colors: C
+
+			pickers: B
+
+			layers: L
+
+
+
+		MENUS:
+		______
+
+
+			_Strips:
+
+				_esculpir con módulos alphas
+
+
+			_Models:
+
+				_"Insert geometry", igual que en zbrush, podremos insertar geometría básica
+
+				prediseñada ó personalizada cargada por nosotros
+
+
+			_Splines:
+
+				_así, como también, podremos modular geometría básica y personalizada a través,
+
+				de "Splines", para crear formas complejas y ordenadas, igual que en zbrush
+
+
+
+		Brush Settins:
+		______________
+
+
+			Brush Size: Mouse Right Click + Left/Right Drag | Mouse Wheel Up/Down
+
+			Brush Stretch: Mouse Right Click + Up/Down Drag
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

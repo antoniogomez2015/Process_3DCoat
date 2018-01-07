@@ -1,0 +1,444 @@
+
+
+
+
+	3D Coat
+
+		Introducción a 3d Coat - Parte1
+			https://www.youtube.com/watch?v=OIriVkYK59c
+
+
+
+	_ring de cuello "5, faces"
+
+	_ring de hombro "12, faces"
+
+	_ring muñeca "12, faces"
+
+	_ring de la plama de la mano "26, faces"
+
+		_ring Dedos "8, faces"
+
+			_entre dedos "1, face"
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Retopology:
+___________
+
+
+	Basic:
+	______
+
+
+		_Add / Split:
+
+			_ésta opción nos permitirá agregar geometría de forma controlada de ésta manera, podremos 
+
+			hacer correcciones y agregar edges, que conformarán más faces, de la retopología respectiva
+
+
+				_Mouse Left Click (sobre dos vertex, ó Edges, uno a la vez)
+
+
+
+		_Select:
+
+			_ésta opción nos permitirá seleccionar sub-elementos de la retopología y realizar acciones
+
+			con éstos
+
+
+				_Select:
+
+					_Shift + Mouse Left Click and Drag
+
+
+				_DeSelect:
+
+					_Control + Mouse Left Click and Drag
+
+
+				_Select Ring:
+
+					_R (Select un Edge)
+
+
+				_Select Loop:
+
+					_L (Select un Edge)
+
+
+
+				_Sub-Divide:
+
+					_Inset Key (Select Faces)
+
+
+					_Inser Key | Mouse Left Click (Select Edges)
+
+
+
+				_Collapse:
+
+					_Backspace: (Select Edges)
+
+
+
+		_SelPath:
+
+			_
+
+
+
+		_Quads:
+
+			_ésta opción nos permitirá crear nueva retopología a partir de un "Edge", existente como
+
+			mínimo así, podremos seleccionar ó posarnos sobre un edge, existente para que así, a partir
+
+			de ésta punto crear uno ó más "vertex", para que así, nueva topología sea creada de forma
+
+			más práctiva y rápida
+
+
+			_para lo cuál, con el tool, ó brush, selecciona debemos de ir a las opciones de la barra
+
+			superior en la cuál, podremos seleccionar los criterios de la herramienta
+
+
+
+		_Points / Faces:
+
+			_ésta opción nos permitirá ir generando "Vertex", de forma independientes sobre la 
+
+			superficie del motivo y a partir de los cuáles, podremos ir posteriormente creando nueva
+
+			geometrías ó nuevas "Faces", y retopologizando así, el motivo de forma personalizada
+
+
+				_Crear Point:
+
+					_Mouse Left Click
+
+
+				_Crear ó Cerrar Faces:
+
+					_Mouse Right Click (entre cuatro vertex)
+
+
+
+				_Crear Edge Loops:
+
+					_Control + Mouse Left Click
+
+
+
+		_Cap:
+
+			_ésta opción nos permitirá rellenar áreas vacías con polígonos
+
+
+				_Polígonos colapsados al centro:
+
+					_Mouse Left Click (sobre un área vacía)
+
+
+				_Un sólo polígono global:
+
+					_Mouse Right CLick (sobre un área vacía)
+
+
+
+
+		_Strokes:
+
+			_ésta opción nos permitirá crear topología a través, de líneas verticales y horizontales
+
+			que creemos sobre un área determinada del motivo, especialmente útil para creación 
+
+			personalizada de extremidades como piernas y brazos, otros
+
+
+			_ya que de ésta manera, podremos indicar la cantidad de segmentos ha generar ó resolución
+
+			así, como también, la posición de éstos en relación a su vez, a la morfología del motivo
+
+
+				_Linear Topology:
+
+					_Crear segmentos de líneas cruzadas + Enter
+
+
+				_Curve Topology:
+
+					_Control + Mouse Left Click
+
+						_Crear segmentos de líneas cruzadas + Enter
+
+
+						_Loop Topology:
+
+							_Control + Mouse Left Click
+
+								_podemos crear loops, cerrados de inicio a fin para 
+
+								a continuación interceptar éstos sólo con una línea 
+
+								transversal para que el sistema cree la demás 
+
+								geometría para rellenar ó crear toda la topología
+
+								de los loops, indicados
+
+
+
+
+		_Brush:
+
+			_ésta herramienta nos permitirá ajustar la geometría ó retopología generada sobre el motivo
+
+			de ésta manera, podremos suavizar y estirar la nueva geometría generada para que así, ésta 
+
+			se redistribuya y se ajuste mejor sobre la superficie y tenga un comportamiento de "Snap",	ó 
+
+			ajuste y distribución más equitativo sobre el superfice respectiva
+
+
+
+
+
+	Tweak:
+	______
+
+
+		_Del. Polygons:
+
+			_ésta opción nos pemritirá eliminar ó suprimir faces, de forma independiente lo que nos
+
+			permitirá una gran posibilidad de maniobra a la hora de editar la topología generada
+
+
+
+		_Del. Edges:
+
+			_ésta opción nos pemritirá eliminar ó suprimir edges, de forma independiente lo que nos
+
+			permitirá una gran posibilidad de maniobra a la hora de editar la topología generada
+
+
+
+		_Collapse:
+
+			_ésta opción nos pemritirá colapsar ó suprimir edges, de forma independiente lo que nos
+
+			permitirá una gran posibilidad de maniobra a la hora de editar la topología generada
+
+
+
+		_Split Rings:
+
+			_ésta opción nos permitirá agregar "Edge Loops", de geometría adicional lo cuál, nos 
+
+			permitirá una mayor versalidad de maniobra a la hora de componer nueva geometría
+
+
+
+		_Move Vertices:
+
+			_ésta opción nos permitirá mover sub-elementos como vertex, edges, y faces, de forma muy 
+
+			fácil y dinámica de las nuevas geometrías creadas sobre el motivo como nuevas retopologías 
+
+			para que así, podamos hacer ajustes personalizados y más precisos de la geometría generada
+
+
+
+		_Slide Edges:
+
+			_ésta opción nos permitirá desplazar "Edges", respetando la morfología creada sobre el
+
+			motivo por la nueva geometría creada a través, del proceso de retopología lo cuál, nos 
+
+			permitirá realizar ajustes de densidad, otros
+
+
+				_Mouse Right Click + Drag
+
+
+				_Control + Mouse Right Click + Drag
+
+					_(para mover todo un edge loops, completo)
+
+
+
+
+	UV:
+	___
+
+
+
+		_Mark Seams:
+
+			_
+
+
+
+		_Edge Loops:
+
+			_
+
+
+
+		_UV Path:
+
+			_
+
+
+
+	
+	Comands:
+	________
+
+
+		_Transform:
+
+			_ésta opción nos permitirá mover, rotar y escalar todo el sistema como un todo, como una 
+
+			layer, de forma independiente a la layer, del motivo
+
+
+
+		_Import:
+
+			_
+
+
+
+		_Export:
+
+			_
+
+
+
+		_Snap:
+
+			_ésta opción nos permitirá importar un "retopología", y hacer que ésta se seña al modelos
+
+			de referencia
+
+
+
+		_Subdivide:
+
+			_también, tendremos la posibilidad de agregar más resolución al sistema de retopología
+
+			generado para que así, podamos aumentar la capacidad de representar el detalle del sistema
+
+			de retopología generado
+
+
+
+		_Clear:
+
+			_
+
+
+
+		_Relax:
+
+			_ésta opción nos permitirá seleccionar sub-elementos vertex, con el tool "select", y con
+
+			éstos seleccionados aplicar varias veces "Relax", para que así, éstos vertex, seleccionados
+
+			sean distribuidos de una mejor manera sobre la superficie y a su vez, con éstos 
+
+			seleccionados poder desplzar éstos sobre la superficie del motivo con "Mouse Right Click"
+
+
+
+
+		_Symetry:
+
+			_tenemos la posibilidad de agregar ó trabajar con simetría de la topología que vayamos 
+
+			creando para lo cuál, podremos utilizar el shortcut:
+
+
+				_S (Axis X)
+
+
+			_para a continuación activar la simetría en la barra baja de las herramientas de la sección 
+
+			de "Retopo", para que así, se cree ó genere la retopología real de forma reflejada
+
+
+			_para por último desactivar la simetría base a través, del shortcut, "S"
+
+	
+
+
+
+	Tubes:
+	
+		_tenemos la posibilidad de crear retopologías automáticas de ciertas áreas del motivo a través, de
+
+		geometrías extras como cilindros los cuáles, podremos colocar al rededor del área determinada como
+
+		ejemplo; un brazo ó una pierna ó extremidad
+
+
+		_para lo cuál, debemos estar en el modo "Retopo/", y en el panel "RtpModels", y allí cargar una de
+
+		las formas geométricas disponibles
+
+
+		_y una vez creada la forma sobre el área deseada debemos aplicar "Enter", para que así, el sistema
+
+		nos pregunte si deseamos que ésta nueva geometría sea señida al motivo automáticamente a lo cuál,
+
+		le indicaremos que si
+
+
+
+	Autopo:
+	_______
+
+
+		_ésta opción nos permitirá crear auo retopología de forma automática para lo cuál, debemos de estar
+
+		en "Voxels", mode en el cuál, debemos de ir al panel "VoxTree", en el cuál, debemos estar seguros de
+
+		que estamos en el modo de edición de "V", voxels, y no en el modo "S", surface
+
+
+		_de ésta manera, estando en el modo "V", podremos hacer "Mouse Right Click", y allí, seleccionar la
+
+		opción de "AUTOPO", en la cuál, a su vez, podremos seleccionar la opción de "AUTOPO"
+
+
+		_para que así, nos aparezca un menú contextual en el cuál, podremos seleccionar una resolución ó
+
+		densidad de geometría reusltante del proceso de retopología automática
+
+
+		_para que así, el sistema nos indique que ahora debemos de undicarle a continuación al sistema donde
+
+		deseamos más resolución para cuál, el sistema nospemritirá pintar de color "Grey", las áreas que
+
+		deseamos que tengas más resolución que otras
+
+
+		_para que así, posteriormente ahora el sistema a través, del mismo wizard, anterior ahora no 
+
+		pregunte en que dirección deseamos sean creados los polígonos de la nueva retopología generada para
+
+		lo cuál, debemosde indicar líneas ó trazados tango verticales como horizontales sobre el motivo
+
+
+
